@@ -12,3 +12,4 @@ export const searchData = async (Identifier: string) => {
     .eq("identifier", Identifier);
   return searchedData.data![0];
 };
+a;
